@@ -47,13 +47,13 @@ PLAYER_ADDRESS=0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
 각 문제의 인터페이스를 사용할 수 있습니다.
 
 ``` solidity
-	// 컨트랙트 인터페이스 설정
-	Instance InstanceContract = Instance(payable(instance));
+// 컨트랙트 인터페이스 설정
+Instance InstanceContract = Instance(payable(instance));
 
 
-	// 인터페이스에 정의된 인스턴스 함수 호출
-	InstanceContract.authenticate(InstanceContract.password());
-	// 인스턴스에 금액 전송
-	address(InstanceContract).call{value: 1 wei}("");
+// 인터페이스에 정의된 인스턴스 함수 호출
+InstanceContract.authenticate(InstanceContract.password());
+// 인스턴스에 금액 전송
+address(InstanceContract).call{value: 1 wei}("");
 	
 ```
