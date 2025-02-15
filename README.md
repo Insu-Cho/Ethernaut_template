@@ -1,14 +1,15 @@
 # Ethernaut - Foundry Template
 **Ethernaut** 문제 틀잡기 귀찮은 자를 위한 **Foundry** 템플릿입니다.  
-내부 블록체인을 구동하셨다면, 이 템플릿을 참고하여 문제 풀이를 진행해주세요.  
+내부 블록체인을 구동하셨다면, 이 템플릿을 참고하여 문제 풀이를 진행해주세요. 
+정상 동작 확인을 위해 contracts 폴더 안에서 `forge test`를 시도해 주세요.
 
 ---
 
 ## 폴더 위치
 
 아래의 경로에 폴더를 넣어주세요
-- **Exploit**: `src/
-- **Script**: `scripts/
+- **Exploit**: `contracts/src/
+- **Script**: `contracts/scripts/
 
 ---
 
